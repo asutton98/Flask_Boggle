@@ -1,0 +1,69 @@
+.board td{
+    
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* border-collapse: collapse; */
+    font-size: 4rem;
+    width: 100px;
+    height: 100px ;
+
+}
+
+.board{
+    border: 2px solid rgba(0, 0, 0, 0.385);
+    border-radius: 8px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px rgba(71, 73, 73, 0.398);
+}
+
+#btn{
+    cursor: pointer;
+    background: lightblue;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+#btn:hover{
+    outline: 0;
+    background: rgb(139, 212, 236);
+}
+
+.add-word label{
+    font-size: 16px;
+    top: 2rem;
+    left: 0;
+    pointer-events: none;
+    color: #fff;
+}
+
+.add-word input{
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 15px;
+
+}
+
+.text{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    color:aquamarine;
+}
+.word::placeholder{
+    font-size: 16px;
+    
+    transition: all 0.3s;
+    color: rgba(255, 255, 255, 0.371);
+}
+
+.word{
+    color: #fff;
+}
+body{
+    background-color: rgb(126, 125, 125);
+}
